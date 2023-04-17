@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>mp3 player</title>
+</head>
+
+<body>
+    <audio id="music" src="mp3/take.mp3"></audio>
+    <div class="container-fluid main ">
+        <div class="container center ">
+           <div class=" text-center ">
+            <i class=" head_page icon fa fa-music" aria-hidden="true"></i> <span class="  head_page text-white">Music</span>
+           </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="music_img_div ">
+                        <img class="music_img mt-3" id="album-art" width="100%" src="img/ab67616d0000b2734eb24bfd49d01e0f3c57a410.jfif"
+                            alt="">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <h2 id="song-name"  class="text-center mt-3 text-white lead display-6 ">Take it easy</h2>
+                    <p class="text-center text-white lead">melody</p>
+                    <div class="buttons text-center">
+                        <button onclick="" id="step_backward" ><i class=" icon fa fa-step-backward" aria-hidden="true"></i></button>
+                        <button  id="pause-button" ><i id="play-pause-icon" class=" icon fa fa-play" aria-hidden="true"></i></button>
+                        <button  id="next-button"><i class=" icon fa fa-step-forward" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
+<script src="js/main.js"></script>
